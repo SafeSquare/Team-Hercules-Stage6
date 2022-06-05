@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+#news-section {
+  background: #f1f1f1;
+}
+.bg-top-section {
+  background: url(../img/news-background.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  position: relative;
+}
+
+.news span {
+  margin: 0 30px;
+}
+
+.news h2 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #000;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.heading a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  line-height: 14px;
+}
+
+.readmore-btn {
+  border: none;
+  background-color: #fcd900;
+  border-radius: 4px;
+  padding: 5px;
+}
+.readmore-btn a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  padding: 20px;
+}
+.readmore-btn span {
+  margin-left: 60px;
+}
+.news p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  opacity: 0.7;
+}
+.news h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+h6 a {
+  text-decoration: none;
+  color: black;
+}
+
+#contact-section {
+  background-image: url(../img/background-img.png);
+}
+button {
+  border: none;
+  border-radius: 3px !important;
+}
+.underline {
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+@media (max-width: 769px) {
+  #news-section img {
+    width: 100%;
+  }
+  .contact-part img,
+  .contact-part .phone-no {
+    display: none !important;
+  }
+  .media-part {
+    display: none !important;
+  }
+  .link-up {
+    display: none !important;
+  }
+  .crosson-logo {
+    margin-right: auto;
+  }
+  .copy-right {
+    display: none;
+  }
+  .question-part {
+    display: none;
+  }
+  .p,
+  h6 {
+    font-size: 10px !important;
+  }
+  .crosson-logo {
+    margin-right: auto;
+  }
+  .question-part {
+    flex-direction: column !important;
+  }
+  .contact-part img,
+  .contact-part,
+  .phone-no,
+  .question-part p,
+  .link-up,
+  .copy-right {
+    display: none !important;
+  }
+}

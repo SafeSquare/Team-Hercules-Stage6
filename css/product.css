@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#product-img {
+  background: #f1f1f1;
+}
+
+.justify {
+  justify-content: space-between;
+}
+
+.img-box {
+  flex-basis: 49%;
+}
+
+.box-img {
+  background: #8c8c8c;
+  padding-left: 40%;
+  padding-top: 24%;
+  padding-bottom: 24%;
+}
+
+@media (max-width: 769px) {
+  .container-tab {
+    width: 87%;
+  }
+  .none {
+    display: none;
+  }
+  .crosson-logo {
+    margin-right: auto;
+  }
+  .question-part {
+    flex-direction: column !important;
+  }
+  .contact-part img,
+  .contact-part,
+  .phone-no,
+  .question-part p,
+  .link-up,
+  .copy-right {
+    display: none !important;
+  }
+}
+
+@media (max-width: 426px) {
+  .container-mob {
+    width: 93%;
+  }
+  #head {
+    background: #f1f1f1;
+  }
+  .img-box {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+}

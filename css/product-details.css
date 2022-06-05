@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+h6 a {
+  text-decoration: none;
+  color: black;
+}
+#contact-section {
+  background-image: url(../img/background-img.png);
+}
+button {
+  border: none;
+  border-radius: 3px !important;
+}
+.underline {
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+.list-group {
+  list-style: none !important;
+}
+
+.head-sec {
+  background-image: url(../img/product-background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.photo-sec {
+  background-color: rgb(128, 130, 131);
+  padding: 150px;
+  width: 90%;
+}
+
+.sec-two {
+  background-color: #f7f4f4;
+}
+
+.contact-sec {
+  overflow-x: hidden;
+}
+
+.meeting {
+  background: white;
+  padding: 15px;
+}
+
+.calender {
+  width: 50px;
+  height: 50px;
+}
+
+.button {
+  padding: 8px;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+@media only screen and (max-width: 769px) {
+  .meeting {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .contact-sec {
+    margin: 0 !important;
+    width: 100%;
+  }
+
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-sec {
+    width: 100%;
+  }
+
+  .pdf {
+    margin: 2%;
+    font-size: 1rem;
+  }
+
+  .crosson-logo {
+    margin-right: auto;
+  }
+  .question-part {
+    flex-direction: column !important;
+  }
+  .contact-part img,
+  .contact-part,
+  .phone-no,
+  .question-part p,
+  .link-up,
+  .copy-right {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .pdf {
+    margin: 0;
+    font-size: 0.6rem;
+  }
+
+  .calender {
+    width: 30px;
+    height: 30px;
+  }
+
+  .button {
+    padding: 3px;
+  }
+
+  .crosson-logo {
+    margin-right: auto;
+  }
+  .contact-part img,
+  .contact-part,
+  .phone-no,
+  .question-part h6,
+  .question-part img,
+  .question-part small,
+  .question-part p,
+  .media-part,
+  .link-up,
+  .copy-right {
+    display: none !important;
+  }
+}

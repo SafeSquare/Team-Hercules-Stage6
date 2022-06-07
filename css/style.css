@@ -186,6 +186,11 @@ button {
   text-decoration-color: orange;
 }
 
+.btn-orange {
+  background-color: orange !important;
+}
+
+
 @media only screen and (max-width: 769px) {
   .secitem1 h1 {
     font-size: 1rem;
@@ -253,10 +258,24 @@ button {
   .contact-part img,
   .contact-part,
   .phone-no,
+  .question-part h6,
+  .question-part img,
+  .question-part small,
   .question-part p,
   .link-up,
   .copy-right {
     display: none !important;
+  }
+
+  .ladder-photo {
+    display: none !important;
+  }
+  .btn-warning {
+    display: block !important;
+  }
+
+  .btn-orange {
+    background-color: orange !important;
   }
 }
 
@@ -285,4 +304,11 @@ button {
     padding: 2px 8px;
     font-size: 0.5rem;
   }
+
+  .btn-orange {
+    display: none !important;
+  }
 }
+
+
+

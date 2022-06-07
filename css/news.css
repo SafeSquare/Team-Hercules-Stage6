@@ -86,6 +86,26 @@ button {
   text-decoration-color: orange;
 }
 
+@media screen and (max-width: 426px) {
+  .crosson-logo {
+    margin-right: auto;
+  }
+  .contact-part img,
+  .contact-part,
+  .phone-no,
+  .question-part h6,
+  .question-part img,
+  .question-part small,
+  .question-part p,
+  .link-up,
+  .copy-right {
+    display: none !important;
+  }
+  .btn-warning {
+    display: none !important;
+  }
+}
+
 @media (max-width: 769px) {
   #news-section img {
     width: 100%;
@@ -122,9 +142,18 @@ button {
   .contact-part img,
   .contact-part,
   .phone-no,
+  .question-part h6,
+  .question-part img,
+  .question-part small,
   .question-part p,
   .link-up,
   .copy-right {
+    display: none !important;
+  }
+  .ladder-photo {
+    display: none !important;
+  }
+  .btn-warning {
     display: none !important;
   }
 }

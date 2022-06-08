@@ -46,6 +46,37 @@ button {
   text-decoration: underline;
   text-decoration-color: #fcd900;
 }
+.btn-orange {
+  background-color: orange !important;
+}
+
+@media screen and (max-width: 769px) {
+  .crosson-logo {
+    margin-right: auto;
+  }
+  .question-part {
+    display: none !important;
+  }
+  .contact-part img,
+  .contact-part,
+  .phone-no,
+  .question-part h6,
+  .question-part img,
+  .question-part small,
+  .question-part p,
+  .link-up,
+  .copy-right {
+    display: none !important;
+  }
+  .ladder-photo {
+    display: none !important;
+  }
+  .btn-warning {
+    display: block !important;
+    margin-left: 30px !important;
+  }
+}
+
 @media screen and (max-width: 426px) {
   .crosson-logo {
     margin-right: auto;
@@ -62,20 +93,7 @@ button {
   .copy-right {
     display: none !important;
   }
-}
-@media screen and (max-width: 769px) {
-  .crosson-logo {
-    margin-right: auto;
-  }
-  .question-part {
-    flex-direction: column !important;
-  }
-  .contact-part img,
-  .contact-part,
-  .phone-no,
-  .question-part p,
-  .link-up,
-  .copy-right {
+  .btn-orange {
     display: none !important;
   }
 }

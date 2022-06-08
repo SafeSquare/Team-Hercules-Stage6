@@ -305,10 +305,14 @@ button {
     font-size: 0.5rem;
   }
 
-  .btn-warning {
+  .btn-orange {
     display: none !important;
   }
 }
+
+
+
+
 
 
 

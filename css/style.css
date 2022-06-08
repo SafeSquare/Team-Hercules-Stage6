@@ -305,7 +305,7 @@ button {
     font-size: 0.5rem;
   }
 
-  .btn-orange {
+  .btn-warning {
     display: none !important;
   }
 }
